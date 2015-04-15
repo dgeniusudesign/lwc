@@ -1,0 +1,868 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"aut",
+				"authorInformation"
+			],
+			[
+				"au",
+				"authorInformation"
+			],
+			[
+				"b",
+				"bookInfo"
+			],
+			[
+				"boo",
+				"bookinfo"
+			],
+			[
+				"book",
+				"bookStore"
+			],
+			[
+				"a",
+				"attribute"
+			],
+			[
+				"s",
+				"sequence"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"on",
+				"onclick	Attr"
+			],
+			[
+				"opp",
+				"oppTeam"
+			],
+			[
+				"que",
+				"question_text"
+			],
+			[
+				"m",
+				"max_length"
+			],
+			[
+				"javascri",
+				"javascripts"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"t",
+				"thead	Tag"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"key",
+				"keyup"
+			],
+			[
+				"att",
+				"attrVal"
+			],
+			[
+				"in",
+				"input-text-side"
+			],
+			[
+				"rand",
+				"randomNumber"
+			],
+			[
+				"randu",
+				"randNumText"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"alt",
+				"alert"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"fade",
+				"fadeToggle"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"nav",
+				"navbar-toggle"
+			],
+			[
+				"BORDE",
+				"border-radius"
+			],
+			[
+				"bo",
+				"border-color"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"col",
+				"column-width"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"top",
+				"top-bar-section"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"but",
+				"buttons"
+			],
+			[
+				"button",
+				"button-groups"
+			],
+			[
+				"teamOne",
+				"teamOneBowlerName"
+			],
+			[
+				"bowl",
+				"bowlerName"
+			],
+			[
+				"teamO",
+				"teamOneBatsmanName"
+			],
+			[
+				"bat",
+				"batsmanName"
+			],
+			[
+				"S",
+				"Shah"
+			],
+			[
+				"mat",
+				"matchTypeVar"
+			],
+			[
+				"ma",
+				"matchTypeVar"
+			],
+			[
+				"if",
+				"ifBowling"
+			],
+			[
+				"ifB",
+				"ifBatting"
+			],
+			[
+				"bow",
+				"bowlerOvers"
+			],
+			[
+				"bt",
+				"batsmanCounter"
+			],
+			[
+				"bats",
+				"batsman1"
+			],
+			[
+				"latestBowlerCounter",
+				"latestBowlerCounter1"
+			],
+			[
+				"late",
+				"latestBowlerCounter2"
+			],
+			[
+				"latestBowlerC",
+				"latestBowlerCounter1"
+			],
+			[
+				"bowler",
+				"bowlerCounter"
+			],
+			[
+				"bowlerN",
+				"bowlerName"
+			],
+			[
+				"par",
+				"partnershipIndicator"
+			],
+			[
+				"part",
+				"partnershipRunsIndicator"
+			],
+			[
+				"wicket",
+				"teamWickets"
+			],
+			[
+				"tr",
+				"tr	Tag"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"stri",
+				"strikeIndicatorChange"
+			],
+			[
+				"batsm",
+				"batsman2"
+			],
+			[
+				"batmsn",
+				"batsman"
+			],
+			[
+				"batm",
+				"batsman1"
+			],
+			[
+				"of",
+				"offStrike"
+			],
+			[
+				"team",
+				"teamWickets"
+			],
+			[
+				"batms",
+				"batsman1"
+			],
+			[
+				"pr",
+				"primary_color"
+			],
+			[
+				"ar",
+				"article	Tag"
+			],
+			[
+				"FF",
+				"FF7F66"
+			],
+			[
+				"location",
+				"location_right"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"ff",
+				"FFF6E5"
+			],
+			[
+				"lo",
+				"localStorageData"
+			],
+			[
+				"loc",
+				"localStorage"
+			],
+			[
+				"app",
+				"appendChild"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"l",
+				"link	Tag"
+			],
+			[
+				"rgb",
+				"rgba(r,g,b,a)"
+			],
+			[
+				"bowle",
+				"bowlerRuns"
+			],
+			[
+				"ball",
+				"ballsPerBatsman"
+			],
+			[
+				"bal",
+				"ballsPerBatsman"
+			],
+			[
+				"hit",
+				"hit_click"
+			],
+			[
+				"j",
+				"jQuery"
+			],
+			[
+				"g",
+				"guesses"
+			],
+			[
+				"gues",
+				"guesses"
+			],
+			[
+				"ae",
+				"alert"
+			],
+			[
+				"c",
+				"computerNumber"
+			],
+			[
+				"my",
+				"myNewArray"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"te",
+				"textChanger"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"pri",
+				"print_first_word"
+			],
+			[
+				"sort_",
+				"sort_words"
+			],
+			[
+				"prin",
+				"print_line"
+			],
+			[
+				"print",
+				"print_all"
+			],
+			[
+				"ch",
+				"cheese_and_crackers"
+			],
+			[
+				"print_tw",
+				"print_two_again"
+			],
+			[
+				"from",
+				"from_file"
+			],
+			[
+				"to",
+				"to_file"
+			],
+			[
+				"frm",
+				"from_file"
+			],
+			[
+				"fil",
+				"filename"
+			],
+			[
+				"tex",
+				"text_again"
+			],
+			[
+				"fi",
+				"file_again"
+			],
+			[
+				"f",
+				"filename"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"op",
+				"option	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 457.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/monishkumar/Downloads/Assignment_3/AuthorDetails.xsd",
+		"/Users/monishkumar/Downloads/Assignment_3/library.xsd",
+		"/Users/monishkumar/Downloads/Assignment_3/first_test.xml",
+		"/Users/monishkumar/Projects/Web Programming Languages/Assignment_3/BookDeatils.xsd",
+		"/Users/monishkumar/Projects/Web Programming Languages/Assignment_3/BooksXPath.html",
+		"/Users/monishkumar/Projects/Web Programming Languages/Assignment_3/first_test.xml",
+		"/Users/monishkumar/Projects/Web Programming Languages/Assignment_3/library.xsd",
+		"/Users/monishkumar/Desktop/index.html",
+		"/Users/monishkumar/Documents/SeatReservation.csv",
+		"/Users/monishkumar/Documents/FlightInstance.csv",
+		"/Users/monishkumar/Desktop/DBProject/ProjectData/FLIGHT_INSTANCE.csv",
+		"/Users/monishkumar/Desktop/DBProject/ProjectData/SEAT_RESERVATION1.csv",
+		"/Users/monishkumar/Projects/BookCricket/index.html",
+		"/Users/monishkumar/Projects/BookCricket/gamepage.html",
+		"/Users/monishkumar/Projects/BookCricket/sass/styles.scss",
+		"/Users/monishkumar/Projects/BookCricket/javascripts/game.js",
+		"/Users/monishkumar/Projects/my-website/sass/styles.scss",
+		"/Users/monishkumar/Projects/my-website/index.html",
+		"/Users/monishkumar/Projects/bootstrapsasstest/sass/_bootstrap-variables.scss",
+		"/Users/monishkumar/Projects/bootstrapsasstest/index.html",
+		"/Users/monishkumar/Projects/MyPersonalWebsite/sass/materialize.scss",
+		"/Users/monishkumar/Projects/MyPersonalWebsite/index.html",
+		"/Users/monishkumar/Projects/MyPersonalWebsite/stylesheets/materialize.css",
+		"/Users/monishkumar/Projects/MyPersonalWebsite/scss/_settings.scss",
+		"/Users/monishkumar/Projects/MyPersonalWebsite/scss/app.scss",
+		"/Users/monishkumar/Projects/MyPersonalWebsite/config.rb",
+		"/Users/monishkumar/Projects/BloodDonate/config.rb",
+		"/Users/monishkumar/Projects/BookCricket/scss/app.scss",
+		"/Users/monishkumar/Projects/BookCricket/js/game.js",
+		"/Users/monishkumar/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/monishkumar/Projects/BookCricket/config.rb",
+		"/Users/monishkumar/Projects/foundation_test/index.html",
+		"/Users/monishkumar/Projects/foundation_test/scss/app.scss",
+		"/Users/monishkumar/Projects/test_compass_project/sass/screen.scss",
+		"/Users/monishkumar/Projects/test_compass_project/index.html",
+		"/Users/monishkumar/Projects/test_compass_project/stylesheets/screen.css",
+		"/Users/monishkumar/Projects/Test_SASS/test.scss",
+		"/Users/monishkumar/Projects/Test_SASS/test.css",
+		"/Users/monishkumar/Projects/BookCricket/bookcricket/public/js/mainJs.js",
+		"/Users/monishkumar/Projects/BookCricket/bookcricket/source/less/custom-variables.less",
+		"/Users/monishkumar/Projects/BookCricket/bookcricket/source/less/styles.less",
+		"/Users/monishkumar/Projects/BookCricket/bookcricket/public/index.html",
+		"/Users/monishkumar/Projects/BookCricket/bookcricket/index.html",
+		"/Users/monishkumar/Projects/Web Programming Languages/Assignment_1/index.html",
+		"/Users/monishkumar/Desktop/Assignment_1/readme.txt",
+		"/Users/monishkumar/Projects/Web Programming Languages/Assignment_1/firststyle.css",
+		"/Users/monishkumar/Projects/Web Programming Languages/Practice/index.html",
+		"/Users/monishkumar/Projects/TwoCentsFrontEnd/frontend_structure/source/less/variables.less",
+		"/Users/monishkumar/Projects/TwoCentsFrontEnd/frontend_structure/source/less/custom-variables.less",
+		"/Users/monishkumar/Projects/TwoCentsFrontEnd/frontend_structure/source/less/main.less",
+		"/Users/monishkumar/Projects/TwoCentsFrontEnd/frontend_structure/source/less/styles.less",
+		"/Users/monishkumar/Projects/TwoCents/logo_two_cents.svg",
+		"/Users/monishkumar/Projects/TwoCentsFrontEnd/frontend_structure/source/less/mixins.less",
+		"/Users/monishkumar/Projects/TwoCentsFrontEnd/public/index.html",
+		"/Users/monishkumar/Projects/TwoCentsFrontEnd/source/less/variables.less",
+		"/Users/monishkumar/Projects/TwoCentsFrontEnd/source/less/mixins.less",
+		"/Users/monishkumar/Projects/TwoCents/frontend_proj/index.html",
+		"/Users/monishkumar/Projects/TwoCentsFrontEnd/source/less/main.less",
+		"/Users/monishkumar/Projects/TwoCentsFrontEnd/source/less/styles.less",
+		"/Users/monishkumar/Projects/TwoCents/frontend_proj/css/styles.less",
+		"/Users/monishkumar/Projects/TwoCents/frontend_proj/css/index.html",
+		"/Users/monishkumar/Projects/TwoCents/frontend_proj/less-source/bootstrap/bootstrap.less",
+		"/Users/monishkumar/Projects/TwoCents/frontend_proj/less-source/styles.less",
+		"/Users/monishkumar/Projects/BookCricket/index_working_perfectly.html",
+		"/Users/monishkumar/Projects/BookCricket/index_old.html",
+		"/Users/monishkumar/Projects/Web Development Course Udemy/3. JavaScript/index.html",
+		"/Users/monishkumar/Projects/Web Development Course Udemy/3. JavaScript/index2.html",
+		"/Users/monishkumar/Projects/Web Development Course Udemy/4. jQuery/index2.html",
+		"/Users/monishkumar/Projects/LearnPython/ex1.py",
+		"/Users/monishkumar/Projects/LearnPython/ex2.py",
+		"/Users/monishkumar/Projects/LearnPython/ex3.py",
+		"/Users/monishkumar/Projects/LearnPython/ex4.py",
+		"/Users/monishkumar/Projects/LearnPython/ex15.py",
+		"/Users/monishkumar/Projects/LearnPython/ex16.py",
+		"/Users/monishkumar/Projects/LearnPython/ex17.py",
+		"/Users/monishkumar/Projects/LearnPython/ex18.py",
+		"/Users/monishkumar/Projects/LearnPython/ex19.py",
+		"/Users/monishkumar/Projects/LearnPython/ex20.py",
+		"/Users/monishkumar/Projects/LearnPython/ex25.py",
+		"/Users/monishkumar/Projects/LearnPython/tofile.txt",
+		"/Users/monishkumar/Projects/LearnPython/ex15_sample.txt",
+		"/Users/monishkumar/Projects/Web Development Course Udemy/2. CSS/index.html",
+		"/Users/monishkumar/Library/Caches/TemporaryItems/1-index.html",
+		"/Users/monishkumar/Projects/Web Development Course Udemy/1. HTML/index.html",
+		"/Users/monishkumar/Library/Caches/TemporaryItems/4-index.html",
+		"/Users/monishkumar/Downloads/TestingAccelerometer/src/net/cogitas/testing/GameSurfaceView.java",
+		"/Users/monishkumar/Downloads/TestingAccelerometer/src/net/cogitas/testing/Home.java"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"highe",
+			"highest",
+			"AuthorFirstName",
+			"AuthorMiddleInitial",
+			"AuthorLastName",
+			"AuthorName",
+			"PublicationDate",
+			"AuthorHighestEducation",
+			"AuthorInformation",
+			"PublisherName",
+			"PublisherInformation",
+			"PublisherName",
+			"PublisherInformation",
+			"Title",
+			"Cost",
+			"Title",
+			"Cost",
+			"Price",
+			"BookInformation",
+			"BookDetails",
+			"Books",
+			"BookInformation",
+			"Country",
+			"ZipCode",
+			"City",
+			"SuiteNumber",
+			"StreetName",
+			"Address",
+			"PublisherName",
+			"PublisherInformation",
+			"PublisherDetails",
+			"Country",
+			"ZipCode",
+			"City",
+			"SuiteNumber",
+			"StreetName",
+			"Address",
+			"PublisherName",
+			"PublisherInformation",
+			"Publishers",
+			"BookInformation",
+			"Country",
+			"ZipCode",
+			"City",
+			"SuiteNumber",
+			"StreetName",
+			"Address",
+			"PublisherName",
+			"PublisherInformation",
+			"AuthorCountry",
+			"AuthorZipCode",
+			"AuthorCity",
+			"AuthorAptNumber",
+			"AuthorStreetName",
+			"AuthorAddress",
+			"AuthorHighestEducation",
+			"AuthorDateOfBirth",
+			"AuthorFirstName",
+			"AuthorMiddleInitial",
+			"AuthorLastName",
+			"AuthorName",
+			"AuthorInformation",
+			"TotalTimeInCirculation",
+			"PublicationDate",
+			"Cost",
+			"Price",
+			"Title",
+			"BookInformationbook",
+			"BookDetails",
+			"Books",
+			"BookDetails",
+			"authorCountry",
+			"authorZipCode",
+			"authorCity",
+			"authorAptNumber",
+			"authorStreetName",
+			"authorAddress",
+			"authorHighestEducation",
+			"authorDateofBirth",
+			"authorFirstName",
+			"authorMiddleInitial",
+			"authorLastName",
+			"authorName",
+			"Author",
+			"*",
+			".",
+			"31-Ma",
+			"h3",
+			"yourTeam",
+			"partnership",
+			"bowlingScore",
+			"battingScorecard",
+			"0",
+			"latestBowler",
+			"0",
+			"\n        <tr>\n          <td>Sachin</td>\n          <td>49</td>\n        </tr>",
+			"color",
+			"34. T",
+			"switchName",
+			"34. Top",
+			"top",
+			"span id=\"teamOne",
+			"span id=\"",
+			"batsmanName",
+			"allLatestBalls",
+			"&#09",
+			"batsman_balls",
+			"batsman_runs",
+			"batsman_runs\n",
+			"\";\n",
+			"localStorageData",
+			"width: 		",
+			"width: 						100%",
+			"education",
+			".\n",
+			";\n",
+			"body",
+			"balls",
+			"overs",
+			"total",
+			"wickets",
+			"ballsPerBatsman",
+			"batsman",
+			"i",
+			"var bowlerRuns = [0,0,0,0,0];",
+			";\n",
+			"()",
+			"/>\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "lwc.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"first_test.xml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 177.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
