@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, HttpResponseRedirect
 
 # Create your views here.
 from .forms import EmailForm, JoinForm
@@ -27,6 +27,11 @@ def get_ref_id():
   except:
     return ref_id
 
+def share(request, ref_id):
+  context = {"ref_id": ref_id}
+  template = "share.html"
+  return render(request, template, context)
+
 def home(request):
   # print request.META.get("REMOTE_ADDR")
   # print request.META.get("HTTP_X_FORWARDED_FOR")
@@ -50,6 +55,7 @@ def home(request):
       new_join_old.save()
     # new_join.ip_address = get_ip(request)
     # new_join.save()
+    return HttpResponseRedirect("/%s" %(new_join_old.ref_id))
 
   context = {"form": form}
   template = "home.html"
