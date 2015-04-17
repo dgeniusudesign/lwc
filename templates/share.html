@@ -1,11 +1,109 @@
 {% extends "base.html" %}
-
-
+{% load staticfiles %}
 {% block content %}
-  
+{% include "navbar.html" %}
+
+<div class="jumbotron">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="{% static 'img/launch.jpg' %}" class="img-responsive img-rounded" />  
+      </div>
+      <div class="col-md-6" style='text-align:center'>
+      <i class="fa fa-share-alt fa-5x"></i>
+        <h1>Invite Friends &amp; Earn Rewards</h1>
+        <p>Share your unique link below on your social networks to invite more friends. The more friends you invite, the more rewards you get.</p>
+        <div class="well" id="shareurlwell">
+          {{ ref_url }}
+        </div>
+        Share
+        <br/>
+        <i class="fa fa-facebook-square fa-3x" style="color:#3b5998"></i>
+        <i class="fa fa-twitter-square fa-3x" style="color:#4099FF"></i>
+        <i class="fa fa-linkedin-square fa-3x" style="color:#007bb6"></i>
+        <i class="fa fa-google-plus-square fa-3x" style="color:#D34836"></i>
+        <i class="fa fa-reddit-square fa-3x" style="color:#900020"></i>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+
 {{ ref_id }} <br/>
 
-{{ count }} <br/>
+Number of people who have joined from your link - {{ count }} <br/>
 
-{{ ref_url }}
+<div class="container">
+  <div class="row" style="text-align:center">
+  <div class="col-sm-3">
+    <h3>5 Joined</h3>
+    <div class="progress">
+      <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+        60%
+      </div>
+    </div>
+    <h4>1-Month CodingForEntrepreneurs</h4>
+    <img src="https://yt3.ggpht.com/-Pn8LYdCb0MM/AAAAAAAAAAI/AAAAAAAAAAA/WdlHy0rlN_U/s88-c-k-no/photo.jpg" />
+    <hr/>
+    <h5>Rewards Include:</h5>
+    <ul class="ulclass">
+      <li>Access to CFE for one month</li>
+    </ul>
+    <hr/>
+  </div>
+  <div class="col-sm-3">
+    <h3>15 Joined</h3>
+    <div class="progress">
+      <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+        60%
+      </div>
+    </div>
+    <h4>3-Months CodingForEntrepreneurs</h4>
+    <img src="https://yt3.ggpht.com/-Pn8LYdCb0MM/AAAAAAAAAAI/AAAAAAAAAAA/WdlHy0rlN_U/s88-c-k-no/photo.jpg" />
+    <hr/>
+    <h5>Rewards Include:</h5>
+    <ul class="ulclass">
+      <li>Access to CFE for three months</li>
+    </ul>
+    <hr/>
+  </div>
+  <div class="col-sm-3">
+    <h3>25 Joined</h3>
+    <div class="progress">
+      <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+        60%
+      </div>
+    </div>
+    <h4>6-Months CodingForEntrepreneurs</h4>
+    <img src="https://yt3.ggpht.com/-Pn8LYdCb0MM/AAAAAAAAAAI/AAAAAAAAAAA/WdlHy0rlN_U/s88-c-k-no/photo.jpg" />
+    <hr/>
+    <h5>Rewards Include:</h5>
+    <ul class="ulclass">
+      <li>Access to CFE for six months</li>
+    </ul>
+    <hr/>
+  </div>
+  <div class="col-sm-3">
+    <h3>50 Joined</h3>
+    <div class="progress">
+      <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+        60%
+      </div>
+    </div>
+    <h4>1 Year CodingForEntrepreneurs</h4>
+    <img src="https://yt3.ggpht.com/-Pn8LYdCb0MM/AAAAAAAAAAI/AAAAAAAAAAA/WdlHy0rlN_U/s88-c-k-no/photo.jpg" />
+    <hr/>
+    <h5>Rewards Include:</h5>
+    <ul class="ulclass">
+      <li>Access to CFE for 1 year</li>
+    </ul>
+    <hr/>
+  </div>
+</div>
+</div>
+
+
+</div>
+
 {% endblock %}
