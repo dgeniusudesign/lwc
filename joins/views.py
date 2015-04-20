@@ -74,8 +74,8 @@ def home(request):
     # new_join.ip_address = get_ip(request)
     # new_join.save()
     # Print all those email IDs those were referred by the main sharer
-    print Join.objects.filter(friend=obj).count()
-    print obj.referral.all()
+    # print Join.objects.filter(friend=obj).count()
+    # print obj.referral.all()
 
     return HttpResponseRedirect("/%s" %(new_join_old.ref_id))
 

@@ -27,15 +27,25 @@
   </div>
 
 <div class="container" style="text-align:center">
-  <h1> Welcome home Buddy!</h1>
-
-  <form method="POST" action=""> {% csrf_token %}
-
-  {{ form.as_p }}
-  <input type="submit" class="btn btn-success" value="Join"/>
-
-  </form>
-
+  <div class="col-sm-6 col-sm-offset-3">
+    <h1> Welcome home Buddy!</h1>
+      
+    <form class="form-horizontal" method="POST" action=""> {% csrf_token %}
+    <div class="form-group form-group-lg">
+    {% if form.email.errors %}
+      {% for err in form.email.errors %}
+        <div class="alert alert-danger" role="alert">Your Email is required</div>
+      {% endfor %}
+    {% endif %}
+      <div class="input-group">
+        <input class="form-control" type="email" name="email" placeholder="Your email...">
+        <span class="input-group-btn">
+          <input type="submit" class="btn btn-success btn-lg" value="Join"/>
+        </span>
+      </div>
+    </div>
+    </form>
+  </div>
 </div>
 
 <div class="row" style="text-align:center;background-color:white;margin: 80px 0;min-height:200px">
