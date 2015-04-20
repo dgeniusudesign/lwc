@@ -44,6 +44,8 @@
       .ulclass li {
         text-align: left
       }
+      {% block styles %}
+      {% endblock %}
     </style>
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
@@ -65,16 +67,11 @@
       {% endblock %}
     
     
-
-    <div class="container">
-    
-
-      <hr>
-
+    <div class="container" style="width:100%;margin-top:80px;background-color:grey;padding:20px;text-align:center;">
       <footer>
         <p>&copy; Company 2014</p>
       </footer>
-    </div> <!-- /container -->
+    </div>
 
 
     <!-- Bootstrap core JavaScript

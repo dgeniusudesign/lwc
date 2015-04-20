@@ -1,6 +1,16 @@
 {% extends "base.html" %}
 
 {% load staticfiles %}
+{% block styles %}
+  body {
+    background: url('{% static "img/beach.jpg" %}') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+{% endblock %}
+
 {% block content %}
 <!-- Main jumbotron for a primary marketing message or call to action -->
   <div class="jumbotron" style="background-color: white;">
@@ -17,7 +27,6 @@
   </div>
 
 <div class="container" style="text-align:center">
-  <hr/>
   <h1> Welcome home Buddy!</h1>
 
   <form method="POST" action=""> {% csrf_token %}
@@ -26,6 +35,13 @@
   <input type="submit" class="btn btn-success" value="Join"/>
 
   </form>
+
+</div>
+
+<div class="row" style="text-align:center;background-color:white;margin: 80px 0;min-height:200px">
+  <div class="col-sm-12">
+    <h1>Hello</h1>
+  </div>
 </div>
 
 {% endblock %}
