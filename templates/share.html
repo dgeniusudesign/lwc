@@ -66,11 +66,22 @@ if($signUpCount >= 0 && $signUpCount < 5) {
         </div>
         Share
         <br/>
-        <i class="fa fa-facebook-square fa-3x" style="color:#3b5998"></i>
-        <i class="fa fa-twitter-square fa-3x" style="color:#4099FF"></i>
-        <i class="fa fa-linkedin-square fa-3x" style="color:#007bb6"></i>
-        <i class="fa fa-google-plus-square fa-3x" style="color:#D34836"></i>
-        <i class="fa fa-reddit-square fa-3x" style="color:#900020"></i>
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{ ref_url }}" target="_blank">
+          <i class="fa fa-facebook-square fa-3x" style="color:#3b5998"></i>
+        </a>
+        
+        <a href="https://twitter.com/home?status=This%20is%20just%20a%20%23demo%20%23project%20on%20%23Python%20%23Django.%20Please%20share%20if%20you%20like%20it.%20{{ ref_url }}" target="_blank">
+          <i class="fa fa-twitter-square fa-3x" style="color:#4099FF"></i>
+        </a>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ ref_url }}&title=Django%20Project&summary=A%20sample%20of%20what%20happened%20when%20I%20tried%20to%20write%20an%20app%20with%20Django&source={{ ref_url }}" target="_blank">
+          <i class="fa fa-linkedin-square fa-3x" style="color:#007bb6"></i>
+        </a>
+        <a href="https://plus.google.com/share?url={{ ref_url }}" target="_blank">
+          <i class="fa fa-google-plus-square fa-3x" style="color:#D34836"></i>
+        </a>
+        <a href="http://www.reddit.com/submit?url={{ ref_url }}&title=DjangoProject" target="_blank">
+          <i class="fa fa-reddit-square fa-3x" style="color:#900020"></i>
+        </a>
       </div>
     </div>
   </div>
