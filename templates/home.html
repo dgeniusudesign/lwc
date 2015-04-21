@@ -3,7 +3,7 @@
 {% load staticfiles %}
 {% block styles %}
   body {
-    background: url('{% static "img/beach.jpg" %}') no-repeat center center fixed;
+    background: url('{% static "img/bvs.jpg" %}') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -15,24 +15,23 @@
 
 {% block content %}
 <!-- Main jumbotron for a primary marketing message or call to action -->
-  <div class="jumbotron" style="background-color: white;">
+  <div class="jumbotron">
     <div class="container">
       <div class="col-sm-6">
-        <h1>Landing Page</h1>
-        <p>This is a sample website that was created to learn the basics of Django. </p>
-        <p><a class="btn btn-lg btn-default btn-block" href="#signup" role="button">Be First!</a></p>
+        <h1>Batman vs Superman</h1>
+        <p>To get all the latest details about Batman vs Superman: Dawn of Justice movie, subscribe to our newsletter.</p>
+        <p><a class="btn btn-lg btn-default btn-block" href="#signup" role="button">Go Bats! Go Supes!</a></p>
       </div>
       <div class="col-sm-6">
-        <img src="{% static 'img/iphone.jpg' %}" class="img-responsive" />  
+        <img src="{% static 'img/mainlogo.jpg' %}" class="img-responsive" />  
       </div>
     </div>
   </div>
 
-<div class="container" style="text-align:center" id="signup">
+<div class="container emailblock" style="text-align:center;padding:50px;" id="signup">
   <div class="col-sm-6 col-sm-offset-3">
-    <i class="fa fa-key fa-5x"></i>
-    <h1>Unlock First</h1>
-      
+    <h1>Batman? Superman?</h1>
+      <h3>Signup below to find out</h3>
     <form class="form-horizontal" method="POST" action=""> {% csrf_token %}
     <div class="form-group form-group-lg">
     {% if form.email.errors %}
@@ -49,7 +48,7 @@
     </div>
     </form>
     <div class="row" style="text-align:center">
-      <p class="lead">Sign up right now.<br/> Hear it from us first.</p>
+      <p class="lead">When(If) the battle ends <br/>You will hear about it from us first.</p>
     </div>
   </div>
 </div>
@@ -58,32 +57,40 @@
     <div class="col-sm-12">
       <div class="row">
         <div class="col-sm-3">
-        <i class="fa fa-upload fa-3x"></i>
-          <h2>Feature</h2>
+          <h2>Batman</h2>
           <p class="lead">
-            Some feature text
+            Why Batman will win?
           </p>
+          <ul class="ulclass">
+            <li>Because he is Batman!</li>
+          </ul>
         </div>
         <div class="col-sm-3">
-        <i class="fa fa-upload fa-3x"></i>
-          <h2>Feature</h2>
+          <h2>Superman</h2>
           <p class="lead">
-            Some feature text
+            Why Superman will win?
           </p>
+          <ul class="ulclass">
+            <li>He has to for the sake of Hollywood and Zack Snyder.</li>
+          </ul>
         </div>
         <div class="col-sm-3">
-        <i class="fa fa-upload fa-3x"></i>
-          <h2>Feature</h2>
+          <h2>Tie</h2>
           <p class="lead">
-            Some feature text
+            What if it is a tie?
           </p>
+          <ul class="ulclass">
+            <li>The audience will be happy and will eagerly await the sequel.</li>
+          </ul>
         </div>
         <div class="col-sm-3">
-        <i class="fa fa-upload fa-3x"></i>
-          <h2>Feature</h2>
+          <h2>What if they both die?</h2>
           <p class="lead">
             Some feature text
           </p>
+          <ul class="ulclass">
+            <li>Our friends at Marvel will be ROFLing</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -93,33 +100,43 @@
   <div class="row featured-row">
     <div class="col-sm-12">
       <div class="row">
-        <div class="col-sm-3">
-        <i class="fa fa-upload fa-3x"></i>
-          <h2>Feature</h2>
+        <div class="col-sm-3 col-sm-offset-3">
+          <h2>Teaser</h2>
           <p class="lead">
-            Some feature text
+            What do you think of the teaser?
           </p>
+          <ul class="ulclass">
+            <li>There was more Superman than Batman</li>
+            <li>I have already seen Batman - The Dark Knight Returns movie</li>
+          </ul>
         </div>
         <div class="col-sm-3">
-        <i class="fa fa-upload fa-3x"></i>
-          <h2>Feature</h2>
+          <h2>Zack Snyder</h2>
           <p class="lead">
-            Some feature text
+            Given his track record, how do you think the movie will be?
           </p>
+          <ul class="ulclass">
+            <li>Man of Steel definitely lacked substance</li>
+            <li>But Zack was also the man who gave us Watchmen, so I am hopeful.</li>
+          </ul>
         </div>
-        <div class="col-sm-3">
-        <i class="fa fa-upload fa-3x"></i>
-          <h2>Feature</h2>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container" style="width:100%">
+  <div class="row featured-row">
+    <div class="col-sm-12">
+      <div class="row">
+        <div class="col-sm-4 col-sm-offset-4">
+          <h2>Batman or Superman</h2>
           <p class="lead">
-            Some feature text
+            So, who will it be?
           </p>
-        </div>
-        <div class="col-sm-3">
-        <i class="fa fa-upload fa-3x"></i>
-          <h2>Feature</h2>
-          <p class="lead">
-            Some feature text
-          </p>
+          <ul class="ulclass">
+            <li>Batman</li>
+            <li>And then Superman</li>
+          </ul>
         </div>
       </div>
     </div>
