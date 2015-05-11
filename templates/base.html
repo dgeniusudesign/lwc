@@ -23,8 +23,14 @@
     <link href="http://getbootstrap.com/examples/jumbotron/jumbotron.css" rel="stylesheet">
     -->
     <style type="text/css">
+
+      @font-face {
+        font-family: 'league';
+        src: url('{% static "css/LeagueGothic-Regular.otf" %}');
+}     }
       body {
-        padding-top: 0;
+        font-family: 'league' !important;
+        padding-top: 0 !important;
         padding-bottom: 0;
       }
 
@@ -43,12 +49,12 @@
       }
 
       .ulclass li {
-        text-align: left
+        text-align: left;
+        font-size: 18px;
       }
 
       .featured-row {
         text-align:center;
-        background-color:#ccc;
         min-height:200px;
         padding:40px 0;
       }
@@ -56,15 +62,26 @@
       
       .jumbotron h1 {
         font-weight: 100;
+        font-family: 'league';
+        color: white;
       }
 
       .jumbotron p {
         font-weight: 300;
         font-size: 30px;
+        font-family: 'league';
+        color: white;
       }
 
       #sharejumbo {
         margin: 0;
+      }
+
+      .well {
+        font-family: 'league';
+        font-size: 22px;
+        border-radius: 0;
+        border: none;
       }
 
       .jumbotron {
@@ -88,6 +105,18 @@
         color: #ccc;
         text-align: center;
         padding: 30px;
+        font-family: 'league';
+      }
+
+      .navbar, .jumbotron {
+        background: #515151; /* Old browsers */
+        background: -moz-linear-gradient(left,  hsla(0,0%,32%,1) 0%, hsla(0,0%,24%,1) 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%,hsla(0,0%,32%,1)), color-stop(100%,hsla(0,0%,24%,1))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(left,  hsla(0,0%,32%,1) 0%,hsla(0,0%,24%,1) 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(left,  hsla(0,0%,32%,1) 0%,hsla(0,0%,24%,1) 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(left,  hsla(0,0%,32%,1) 0%,hsla(0,0%,24%,1) 100%); /* IE10+ */
+        background: linear-gradient(to right,  hsla(0,0%,32%,1) 0%,hsla(0,0%,24%,1) 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#515151', endColorstr='#3d3d3d',GradientType=1 ); /* IE6-9 */
       }
 
       {% block styles %}
@@ -99,6 +128,7 @@
         width: 100%;
         text-align: center;
         padding: 30px;
+        font-family: 'league';
       }
 
       .smalllogo {
@@ -110,11 +140,15 @@
       }
 
       #sharerewarddetails {
+        font-family: 'league';
         background-color: #222;
         color: #ccc;
         width: 100%;
       }
 
+      .progress {
+        border-radius: 0;
+      }
 
     </style>
 
@@ -137,7 +171,7 @@
       {% endblock %}
     
       <footer>
-        <p>&copy; Batman vs Superman 2015</p>
+        <h2>BATMAN V SUPERMAN: DAWN OF JUSTICE</h2>
       </footer>
     
 

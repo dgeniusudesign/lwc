@@ -4,16 +4,28 @@
 		"selected_items":
 		[
 			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"a",
+				"a	Tag"
+			],
+			[
 				"marg",
 				"margin-bottom"
 			],
 			[
 				"ref",
 				"ref_url"
-			],
-			[
-				"re",
-				"refer_id"
 			],
 			[
 				"get",
@@ -64,10 +76,6 @@
 				"bookStore"
 			],
 			[
-				"a",
-				"attribute"
-			],
-			[
 				"s",
 				"sequence"
 			],
@@ -94,10 +102,6 @@
 			[
 				"margin",
 				"margin-top"
-			],
-			[
-				"pad",
-				"padding-bottom"
 			],
 			[
 				"t",
@@ -178,10 +182,6 @@
 			[
 				"font",
 				"font-size"
-			],
-			[
-				"back",
-				"background-color"
 			],
 			[
 				"max",
@@ -491,86 +491,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "joins/models.py",
-			"settings":
-			{
-				"buffer_size": 1412,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "joins/admin.py",
-			"settings":
-			{
-				"buffer_size": 279,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "joins/views.py",
-			"settings":
-			{
-				"buffer_size": 2455,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/share.html",
-			"settings":
-			{
-				"buffer_size": 3469,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/navbar.html",
-			"settings":
-			{
-				"buffer_size": 158,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "lwc/middleware.py",
-			"settings":
-			{
-				"buffer_size": 339,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "lwc/settings.py",
-			"settings":
-			{
-				"buffer_size": 2398,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/base.html",
-			"settings":
-			{
-				"buffer_size": 2777,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/home.html",
-			"settings":
-			{
-				"buffer_size": 1025,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "lwc/urls.py",
-			"settings":
-			{
-				"buffer_size": 358,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -579,10 +499,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 400.0,
-		"last_filter": "",
+		"height": 376.0,
+		"last_filter": "pa",
 		"selected_items":
 		[
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
 			[
 				"insta",
 				"Package Control: Install Package"
@@ -625,22 +549,41 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/monishkumar/Projects/Python/PythonProjects/lwc/src/templates"
+		"/Users/monishkumar/Projects/Python/PythonProjects/lwc/src",
+		"/Users/monishkumar/Projects/Python/PythonProjects/lwc/src/joins"
 	],
 	"file_history":
 	[
-		"/Users/monishkumar/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/monishkumar/Downloads/Assignment2-mxm143930/Assignment_2/firststyle.css",
-		"/Users/monishkumar/Projects/Python/PythonProjects/lwc/src/joins/admin.py",
-		"/Users/monishkumar/Projects/Python/PythonProjects/lwc/src/lwc/settings.py",
-		"/Users/monishkumar/Projects/Python/PythonProjects/lwc/src/templates/home.html",
-		"/Users/monishkumar/Projects/Python/PythonProjects/lwc/src/joins/views.py",
+		"/Users/monishkumar/Projects/Python/PythonProjects/lwc/src/joins/tests.py",
 		"/Users/monishkumar/Projects/Python/PythonProjects/lwc/src/joins/forms.py",
-		"/Users/monishkumar/Projects/Python/PythonProjects/lwc/src/joins/models.py",
-		"/Users/monishkumar/Projects/Python/PythonProjects/lwc/src/lwc/urls.py",
-		"/Users/monishkumar/Projects/Python/PythonProjects/lwc/src/lwc/views.py",
+		"/Users/monishkumar/Projects/Python/PythonProjects/lwc/src/joins/views.py",
+		"/Users/monishkumar/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/monishkumar/Library/Application Support/Sublime Text 3/Packages/User/Colorsublime.sublime-settings",
+		"/Users/monishkumar/Library/Application Support/Sublime Text 3/Packages/Colorsublime/Colorsublime.sublime-settings",
+		"/Users/monishkumar/Projects/Database Design/Programming Project 2/MyDatabase.py",
+		"/Users/monishkumar/Projects/Python/PythonProjects/lwc/src/templates/home.html",
 		"/Users/monishkumar/Projects/Python/PythonProjects/lwc/src/templates/navbar.html",
+		"/Users/monishkumar/Projects/Python/PythonProjects/lwc/src/templates/share.html",
 		"/Users/monishkumar/Projects/Python/PythonProjects/lwc/src/templates/base.html",
+		"/Users/monishkumar/Projects/Python/PythonProjects/lwc/src/templates/500.html",
+		"/Users/monishkumar/Projects/Python/PythonProjects/lwc/src/templates/404.html",
+		"/Users/monishkumar/Projects/Python/PythonProjects/lwc/src/templates/400.html",
+		"/Users/monishkumar/Projects/Python/PythonProjects/lwc/src/lwc/wsgi.py",
+		"/Users/monishkumar/Projects/Python/PythonProjects/lwc/src/lwc/settings/production.py",
+		"/Users/monishkumar/Projects/Python/PythonProjects/lwc/src/lwc/settings/__init__.py",
+		"/Users/monishkumar/Projects/Python/PythonProjects/lwc/src/Procfile",
+		"/Users/monishkumar/Projects/Python/PythonProjects/lwc/src/lwc/settings/base.py",
+		"/Users/monishkumar/Projects/Python/PythonProjects/lwc/src/requirements.txt",
+		"/Users/monishkumar/Projects/Python/PythonProjects/lwc/src/lwc/settings/local.py",
+		"/Users/monishkumar/Projects/Python/PythonProjects/lwc/src/.gitignore",
+		"/Users/monishkumar/Projects/Python/PythonProjects/lwc/src/lwc/views.py",
+		"/Users/monishkumar/Projects/Python/PythonProjects/lwc/src/lwc/urls.py",
+		"/Users/monishkumar/Projects/Python/PythonProjects/lwc/src/templates/temp.html",
+		"/Users/monishkumar/Projects/Python/PythonProjects/lwc/src/lwc/settings.py",
+		"/Users/monishkumar/Projects/Python/PythonProjects/lwc/src/lwc/middleware.py",
+		"/Users/monishkumar/Projects/Python/PythonProjects/lwc/src/joins/admin.py",
+		"/Users/monishkumar/Projects/Python/PythonProjects/lwc/src/joins/models.py",
+		"/Users/monishkumar/Downloads/Assignment2-mxm143930/Assignment_2/firststyle.css",
 		"/Users/monishkumar/Downloads/Assignment_3/AuthorDetails.xsd",
 		"/Users/monishkumar/Downloads/Assignment_3/library.xsd",
 		"/Users/monishkumar/Downloads/Assignment_3/first_test.xml",
@@ -889,308 +832,8 @@
 	"groups":
 	[
 		{
-			"selected": 3,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "joins/models.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1412,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								197,
-								197
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "joins/admin.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 279,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								174,
-								174
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "joins/views.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2455,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								802,
-								802
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "templates/share.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3469,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1216,
-								1216
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "templates/navbar.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 158,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								158,
-								158
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "lwc/middleware.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 339,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								327,
-								327
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "lwc/settings.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2398,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1898,
-								1898
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 805.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "templates/base.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2777,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1365,
-								1365
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "templates/home.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1025,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								144,
-								767
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 1.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "lwc/urls.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 358,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								155,
-								155
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				}
 			]
 		}
 	],

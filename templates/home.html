@@ -10,28 +10,91 @@
     background-size: cover;
   }
 
+  .batlogo {
+    padding-top: 54px;
+  }
+
+  .main-logos {background: -moz-linear-gradient(left,  hsla(0,0%,66%,0.94) 0%, hsla(0,0%,42%,0.94) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,hsla(0,0%,66%,0.94)), color-stop(100%,hsla(0,0%,42%,0.94))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  hsla(0,0%,66%,0.94) 0%,hsla(0,0%,42%,0.94) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  hsla(0,0%,66%,0.94) 0%,hsla(0,0%,42%,0.94) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  hsla(0,0%,66%,0.94) 0%,hsla(0,0%,42%,0.94) 100%); /* IE10+ */
+background: linear-gradient(to right,  hsla(0,0%,66%,0.94) 0%,hsla(0,0%,42%,0.94) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0a9a9a9', endColorstr='#f06a6a6a',GradientType=1 ); /* IE6-9 */
+
+}
+
+  .grad-bg {
+  background: -moz-radial-gradient(center, ellipse cover,  hsla(0,0%,31%,0.63) 0%, hsla(0,0%,31%,0.81) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,hsla(0,0%,31%,0.63)), color-stop(100%,hsla(0,0%,31%,0.81))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  hsla(0,0%,31%,0.63) 0%,hsla(0,0%,31%,0.81) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  hsla(0,0%,31%,0.63) 0%,hsla(0,0%,31%,0.81) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  hsla(0,0%,31%,0.63) 0%,hsla(0,0%,31%,0.81) 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  hsla(0,0%,31%,0.63) 0%,hsla(0,0%,31%,0.81) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a14f4f4f', endColorstr='#cf4f4f4f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+  .btn {
+    border-radius: 0;
+    border: none;
+    height: 46px;
+    background-color: #3d3d3d;
+  }
+
+  .form-control {
+    border-radius: 0 !important;
+    border: none !important;
+  }
+
+  footer, h1, h2, h3, .lead {
+  font-family: 'league' !important;
+  color: white !important;
+  }
+
+  .above-field {
+  padding-bottom: 20px;
+  }
+
+  .below-field {
+  padding-top: 20px;
+  }
+
+  .box-cont {
+  background-color: rgba(242, 242, 242, 0.3);
+  height: 270px;
+  }
+
+  .box-conts {
+  background-color: rgba(242, 242, 242, 0.3);
+  height: 220px;
+  }
 
 {% endblock %}
 
 {% block content %}
 <!-- Main jumbotron for a primary marketing message or call to action -->
-  <div class="jumbotron">
+  <div class="jumbotron main-logos">
     <div class="container">
-      <div class="col-sm-6">
-        <h1>Batman vs Superman</h1>
-        <p>To get all the latest details about Batman vs Superman: Dawn of Justice movie, subscribe to our newsletter.</p>
-        <p><a class="btn btn-lg btn-default btn-block" href="#signup" role="button">Go Bats! Go Supes!</a></p>
+    <div class="col-sm-3">
+      <img src="{% static 'img/batlogo.png' %}" class="img-responsive batlogo" />
+    </div>
+      <div class="col-sm-6 text-center">
+        <h1>BATMAN V SUPERMAN</h1>
+        <h1>DAWN OF JUSTICE</h1>
       </div>
-      <div class="col-sm-6">
-        <img src="{% static 'img/mainlogo.jpg' %}" class="img-responsive" />  
+      <div class="col-sm-3">
+        <img src="{% static 'img/superlogo.gif' %}" class="img-responsive" />  
       </div>
     </div>
   </div>
 
 <div class="container emailblock" style="text-align:center;padding:50px;" id="signup">
   <div class="col-sm-6 col-sm-offset-3">
-    <h1>Batman? Superman?</h1>
-      <h3>Signup below to find out</h3>
+    <div class="text-center above-field">
+      <h3>To Get all the latest information about Batman vs Superman, Subscribe to our Newsletter by entering your email ID below</h3>
+    </div>
+    
     <form class="form-horizontal" method="POST" action=""> {% csrf_token %}
     <div class="form-group form-group-lg">
     {% if form.email.errors %}
@@ -47,96 +110,66 @@
       </div>
     </div>
     </form>
-    <div class="row" style="text-align:center">
+    <div class="row below-field" style="text-align:center">
       <p class="lead">When(If) the battle ends <br/>You will hear about it from us first.</p>
     </div>
   </div>
 </div>
-<div class="container" style="width:100%">
+<div class="container grad-bg" style="width:100%">
   <div class="row featured-row">
     <div class="col-sm-12">
       <div class="row">
-        <div class="col-sm-3">
-          <h2>Batman</h2>
+        <div class="col-sm-4 col-sm-offset-4 box-cont">
+          <h2>DAWN OF JUSTICE</h2>
           <p class="lead">
-            Why Batman will win?
+            Batman v Superman: Dawn of Justice is a Superhero movie scheduled for release in 2016 and will be the second of the DC comics shared movie-verse, the first being Man of Steel featuring Henry Cavill as Superman. Henry Cavill will reprise his role as Superman and Ben Affleck will be Batman
           </p>
-          <ul class="ulclass">
-            <li>Because he is Batman!</li>
-          </ul>
-        </div>
-        <div class="col-sm-3">
-          <h2>Superman</h2>
-          <p class="lead">
-            Why Superman will win?
-          </p>
-          <ul class="ulclass">
-            <li>He has to for the sake of Hollywood and Zack Snyder.</li>
-          </ul>
-        </div>
-        <div class="col-sm-3">
-          <h2>Tie</h2>
-          <p class="lead">
-            What if it is a tie?
-          </p>
-          <ul class="ulclass">
-            <li>The audience will be happy and will eagerly await the sequel.</li>
-          </ul>
-        </div>
-        <div class="col-sm-3">
-          <h2>What if they both die?</h2>
-          <p class="lead">
-            Some feature text
-          </p>
-          <ul class="ulclass">
-            <li>Our friends at Marvel will be ROFLing</li>
-          </ul>
         </div>
       </div>
     </div>
   </div>
 </div>
-<div class="container" style="width:100%">
+<div class="container grad-bg" style="width:100%">
   <div class="row featured-row">
     <div class="col-sm-12">
       <div class="row">
-        <div class="col-sm-3 col-sm-offset-3">
-          <h2>Teaser</h2>
+        <div class="col-sm-3 col-sm-offset-3 box-cont">
+          <h2>BATMAN</h2>
           <p class="lead">
-            What do you think of the teaser?
+            Ben Affleck is Batman and there is no denying that now. Seeing him wear the Batman suit (that can only belong to Christian Bale) has rekindled the hope that Batman can be infact portrayed by someone else other than Bale.
           </p>
-          <ul class="ulclass">
-            <li>There was more Superman than Batman</li>
-            <li>I have already seen Batman - The Dark Knight Returns movie</li>
-          </ul>
         </div>
-        <div class="col-sm-3">
-          <h2>Zack Snyder</h2>
+        <div class="col-sm-3 box-cont">
+          <h2>SUPERMAN</h2>
           <p class="lead">
-            Given his track record, how do you think the movie will be?
+            Henry Cavil, with his Superman physique, will continue to reprise the role of the Kryptonian who is on Earth and is trying to save it. Man of Steel showed a dark beginning to the DC shared comic universe, but Henry Cavil got his job done and we all hope that he continues to do so. 
           </p>
-          <ul class="ulclass">
-            <li>Man of Steel definitely lacked substance</li>
-            <li>But Zack was also the man who gave us Watchmen, so I am hopeful.</li>
-          </ul>
         </div>
       </div>
     </div>
   </div>
 </div>
-<div class="container" style="width:100%">
+<div class="container grad-bg" style="width:100%">
   <div class="row featured-row">
     <div class="col-sm-12">
       <div class="row">
-        <div class="col-sm-4 col-sm-offset-4">
-          <h2>Batman or Superman</h2>
+        <div class="col-sm-4 box-conts">
+          <h2>CAST</h2>
           <p class="lead">
-            So, who will it be?
+            Apart from Batman and Superman, the cast also includes a couple of superheros from Justic League. Jason Momoa will play the role of Aquaman while Mal Madot will be Wonder Woman.
           </p>
-          <ul class="ulclass">
-            <li>Batman</li>
-            <li>And then Superman</li>
-          </ul>
+        </div>
+        <div class="col-sm-4 box-conts">
+          <h2>THE FACE-OFF</h2>
+          <p class="lead">
+            In the comics, Batman and Superman are friends, but are involved in a face-off once when the Government sends Superman to take care of Batman(The Dark Knight Returns Animated Movie). This is likely to be scenario in the movie as well.
+          </p>
+        </div>
+        <div class="col-sm-4 box-conts">
+          <h2>WHO WILL WIN</h2>
+          <p class="lead">
+            Superman is definitely unmatched when it comes to power and energy, but Bruce isn’t a mug either. Bruce is easily the most intelligent and the talented one in the Justice League and if someone can challenge Superman’s powers, it is Batman.
+          </p>
         </div>
       </div>
     </div>
